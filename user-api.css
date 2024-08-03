@@ -1,0 +1,17 @@
+#main-container
+{
+    margin-top: 40px;
+    border:1px solid black;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+}
+#sub-container
+{
+    display: flex;
+    border: 2px dashed red;
+    padding: 40px;
+}
+.form-container > input{
+    margin: 15px auto;
+}
